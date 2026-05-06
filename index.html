@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Sport | Legesse Ydidya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="theme-switch">
+    <button id="theme-toggle">🌙 Tema</button>
+</div>
+
+<header>
+    <img src="https://via.placeholder.com/100" alt="Foto profilo" class="profile-img">
+    <h1>@Legesse Ydidya</h1>
+    <p>🥋 Karate</p>
+</header>
+
+<main class="container">
+    <!-- Pulsanti Social -->
+    <a href="https://www.instagram.com" target="_blank" class="btn instagram">📸 Instagram</a>
+    <a href="https://www.tiktok.com" target="_blank" class="btn tiktok">🎵 TikTok</a>
+    <a href="https://www.facebook.com" target="_blank" class="btn facebook">👍 Facebook</a>
+    <a href="https://www.linkedin.com/in/ydidya" target="_blank" class="btn linkedin">💼 LinkedIn</a>
+    <a href="karate.html" class="btn karate">🥋 Il mio Karate</a>
+    <a href="mailto:ydidyalegesse02@gmail.com" class="btn mail">✉️ Contattami</a>
+ 
+    <hr>
+
+    <!-- Tabella Orari -->
+    <h3>📅 Orari Allenamento</h3>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>Giorno</th>
+                <th>Orari</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Lunedì</td><td>09:00 - 18:00</td></tr>
+            <tr><td>Martedì</td><td>09:00 - 18:00</td></tr>
+            <tr><td>Mercoledì</td><td>09:00 - 18:00</td></tr>
+            <tr><td>Giovedì</td><td>09:00 - 18:00</td></tr>
+            <tr><td>Venerdì</td><td>09:00 - 16:00</td></tr>
+            <tr><td>Sabato</td><td>Chiuso</td></tr>
+            <tr><td>Domenica</td><td>Chiuso</td></tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Form Contatti -->
+    <h3>📩 Scrivimi</h3>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Messaggio" required></textarea>
+        <button type="submit" class="submit-btn">Invia</button>
+    </form>
+</main>
+
+<footer>
+    <p>Progetto Informatica © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
